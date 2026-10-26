@@ -68,7 +68,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/cover.jpg);
     background-position: center;
     background-size: cover;
-    min-height: 757px;
+    height: 757px;
 }
 
 
@@ -77,11 +77,12 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.23em;
     color: white;
     font-weight: 700;
     font-size: 100px;
     padding: 165px 50px 106px 50px;
+    line-height: 1.151;
 }
 
 span {
@@ -105,7 +106,7 @@ span {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 50px 50px 50px;
+    padding: 0px 50px 42px 50px;
 }
 
 .bet_button {
@@ -119,6 +120,7 @@ span {
     font-weight: 400;
     cursor: pointer;
     background: none;
+
 }
 
 .cover__description-text {
@@ -138,7 +140,8 @@ span {
     font-size: 40px;
     font-weight: 700;
     padding-left: 39px;
-    padding-bottom: 27px;
+    padding-top: 7px;
+    padding-bottom: 26px;
 }
 
 .lots__card-list {
@@ -148,7 +151,7 @@ span {
 }
 
 .lots__card-list-item {
-    min-height: 596px;
+    height: 596px;
     width: 334px;
     background-position: center;
     background-size: cover;
@@ -169,8 +172,8 @@ span {
 
 .lot_text {
     text-decoration: none;
-    padding-top: 40px;
-    padding-bottom: 38px;
+    padding-top: 38px;
+    padding-bottom: 3px;
     font-size: 20px;
     font-weight: 400;
     color: white;
@@ -191,7 +194,7 @@ span {
 
 .more {
     display: block;
-    margin-top: -6px;
+    margin-top: 30px;
     padding-left: 40px;
     font-weight: 400;
     font-size: 20px;
