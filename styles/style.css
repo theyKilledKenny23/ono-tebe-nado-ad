@@ -130,14 +130,14 @@ span {
 }
 
 .lots {
-    padding: 180px 24px 0px 24px;
+    padding: 173px 24px 0px 24px;
 }
 
 .lots__heading {
     text-transform: uppercase;
     font-size: 40px;
     font-weight: 700;
-    padding-left: 40px;
+    padding-left: 39px;
     padding-bottom: 27px;
 }
 
@@ -169,7 +169,7 @@ span {
 
 .lot_text {
     text-decoration: none;
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 38px;
     font-size: 20px;
     font-weight: 400;
@@ -191,7 +191,7 @@ span {
 
 .more {
     display: block;
-    margin-top: -1px;
+    margin-top: -6px;
     padding-left: 40px;
     font-weight: 400;
     font-size: 20px;
@@ -246,7 +246,7 @@ span {
 
 .footer {
     display: grid;
-    padding: 200px 50px 82px 50px;
+    padding: 185px 50px 82px 50px;
     height: 180px;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
@@ -257,6 +257,7 @@ span {
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
+    max-width: 500px;
 }
 
 .footer_menu {
